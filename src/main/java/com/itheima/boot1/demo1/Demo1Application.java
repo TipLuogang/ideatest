@@ -14,11 +14,11 @@ import java.util.Properties;
 @SpringBootApplication
 //@MapperScan(basePackages = "com.itheima.boot1.demo1.mapper")
 @EnableCaching
-public class Demo1Application extends SpringBootServletInitializer{
-	@Override  //extends SpringBootServletInitializer
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(Demo1Application.class);
-	}
+public class Demo1Application{
+//	@Override  //extends SpringBootServletInitializer
+//	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+//		return application.sources(Demo1Application.class);
+//	}
 
 	public static void main(String[] args) {
 
